@@ -1,0 +1,48 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-image: url("../backgroud.jpg");
+  font-family: "Century Gothic", serif;
+}
+
+.headerDiv {
+  margin-top: 5rem;
+}
+
+.header {
+  font-size: 85px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.infoHeader{
+  font-size: 35px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  margin-bottom: 0;
+}
+
+.info {
+  font-size: 25px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.mobile1 {
+  display: none;
+}
+
+.mobile {
+  backdrop-filter: blur(10px);
+
+}
+
+@media screen and (max-width: 900px) {
+ .mobile1 {
+  display: block;
+ }
+  .PC {
+    display: none;
+  }
+}
